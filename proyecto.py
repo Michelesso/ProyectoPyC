@@ -5,8 +5,7 @@ cursor = conexion.cursor()
 
 #INSERTAR REGISTRO
 
-cursor.execute('''INSERT INTO atletas (id_atleta, nombre_completo, genero, fecha_nacimiento) VALUES (?,?,?, ?)
-''', (1, 'Salvador Jurado Maqueda', 'F', '17/11/2008'),)
+
 import sqlite3
 
 conexion = sqlite3.connect("Atletismo.db")
