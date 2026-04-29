@@ -19,9 +19,7 @@ CREATE TABLE IF NOT EXISTS records_trotasierra (
 ''')
 
 try:
-    # 3. Lógica para obtener los mejores (Records) basándonos en tu tabla de campeonatos
-    # Buscamos la marca mínima (mejor tiempo) para carreras y máxima para saltos.
-    
+
     # Definimos los mejores registros según los datos que insertamos antes:
     # 100m lisos: El mejor es el Atleta 5 (10.70s)
     # 400m lisos: El mejor es el Atleta 10 (47.90s)
